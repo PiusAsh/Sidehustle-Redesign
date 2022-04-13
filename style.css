@@ -226,4 +226,7 @@ body {
             width: 350px !important;
             margin-top: -20px;
         }
+        body{
+            overflow-x: hidden;
+        }
 }
