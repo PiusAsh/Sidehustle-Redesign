@@ -1,10 +1,15 @@
-body{
+body {
     font-family: 'Nunito',
-    sans-serif;
+        sans-serif;
     overflow-x: hidden;
 }
 
-.Des{
+.navbar-toggler {
+    border: none !important;
+    background: none !important;
+}
+
+.Des {
     width: 423.422px;
     height: 63px;
     font-size: 14px;
@@ -13,7 +18,7 @@ body{
 }
 
 
-.joinBtn{
+.joinBtn {
     padding: 8px 24px 8px 24px !important;
     border: 2px solid #c0eebd !important;
     border-radius: 9px !important;
@@ -23,28 +28,31 @@ body{
     font-weight: 500 !important;
     margin-right: 110px;
     font-family: 'Nunito',
-    sans-serif;
+        sans-serif;
 }
 
-.navbar{
+.navbar {
     height: 92px;
 }
-.log{
+
+.log {
     color: #52A350;
     font-size: 52.8px;
     font-weight: 800 !important;
     width: 423.422px;
     font-family: "GD boing",
-    sans-serif;
+        sans-serif;
 }
-.wel{
+
+.wel {
     color: #242424;
     font-size: 15px;
     font-weight: 600;
     font-family: 'Nunito',
-    sans-serif;
+        sans-serif;
 }
-.heroImg{
+
+.heroImg {
     width: 100% !important;
     height: 450px !important;
     margin-top: 40px;
@@ -52,19 +60,19 @@ body{
 }
 
 
-.form-control{
+.form-control {
     height: 52px;
     width: 423.222px !important;
     border: 2px solid #bbddbb !important;
     border-radius: 11px !important;
 }
 
-.form-control:focus{
+.form-control:focus {
     border: none !important;
 
 }
 
-.form-label{
+.form-label {
     color: #52a350;
     background-color: white;
     position: absolute;
@@ -73,12 +81,13 @@ body{
     font-weight: 600;
     font-size: 13px;
     padding: 7px;
-        font-family: 'Nunito',
+    font-family: 'Nunito',
         sans-serif;
-    
-    
+
+
 }
-.submit1{
+
+.submit1 {
     background-color: #52a350 !important;
     height: 60px;
     width: 423.222px !important;
@@ -89,42 +98,132 @@ body{
 }
 
 @media (max-width: 985px) {
-    .heroImg{
+    .heroImg {
         display: none;
     }
 }
 
-.mainSection{
+@media (max-width: 990px) {
+    .navbar {
+        border-bottom: 2px solid #bbddbb;
+    }
+
+    .form-control {
+        height: 52px;
+        width: 550px !important;
+        border: 2px solid #bbddbb !important;
+        border-radius: 11px !important;
+    }
+    .submit1 {
+        background-color: #52a350 !important;
+        height: 60px;
+        width: 550px !important;
+        border-radius: 11px !important;
+        color: #fff !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+    }
+
+}
+
+::placeholder {
+    color: #808080;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Nunito',
+        sans-serif;
+}
+
+.mainSection {
     margin-top: 70px;
 }
 
-.forget{
-    color: #858585;
-    font-size: 15px;
-    font-weight: 400;
-    text-decoration: none;
-}
-.forget:hover{
+.forget {
     color: #858585;
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
 }
 
-.links{
-    
+.forget:hover {
+    color: #858585;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.links {
+
     text-align: center;
     width: 423.222px !important;
 }
-.coh{
+
+.coh {
     color: #808080;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 
-.lg{
+.lg {
     color: #52a350;
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
+}
+
+
+
+@media (max-width: 439px) {
+  
+        .form-control {
+            height: 50px !important;
+            width: 350px !important;
+            border: 2px solid #bbddbb !important;
+            border-radius: 11px !important;
+            
+        }
+
+        .submit1 {
+            background-color: #52a350 !important;
+            height: 50px;
+            width: 350px !important;
+            border-radius: 11px !important;
+            color: #fff !important;
+            font-weight: 700 !important;
+            font-size: 16px !important;
+            justify-content: center;
+            display: flex;
+        }
+        .log {
+            color: #52A350;
+            font-size: 35px;
+            font-weight: 800 !important;
+            width: 423.422px;
+            font-family: "GD boing",
+                sans-serif;
+                margin-left: 25px;
+        }
+        .form{
+            margin-left: 25px;
+            
+        }
+
+        .Des{
+            color: #08386d;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            width: 350px;
+            margin-left: 25px;
+        }
+        .wel{
+            margin-left: 25px;
+        }
+
+        .links {
+
+            text-align: center;
+            width: 350px !important;
+            margin-top: -20px;
+        }
 }
